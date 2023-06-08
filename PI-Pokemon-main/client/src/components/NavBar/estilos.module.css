@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdd835;
+    padding: 10px;
+  }
+  
+  .navLinks {
+    display: flex;
+  }
+  
+  .navButton {
+    background-color: #fdd835;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  
+  .navButton a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .navButton:hover {
+    background-color: #e0c843;
+  }
+  

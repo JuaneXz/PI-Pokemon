@@ -1,0 +1,29 @@
+.createcontainer {
+    background-color: #fdd835;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10%;
+    box-shadow: 8px 5px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .createform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .formgroup {
+    margin-bottom: 12px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  .createbutton {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  
+  

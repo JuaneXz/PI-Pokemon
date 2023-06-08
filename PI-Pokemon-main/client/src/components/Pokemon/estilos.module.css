@@ -1,0 +1,30 @@
+.pokemoncard {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pokemoncard h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .pokemonsprites {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .sprite {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .pokemoncard h1 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  
+  

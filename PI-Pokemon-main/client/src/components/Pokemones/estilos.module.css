@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdd835;
+}
+
+.pokemonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: calc(100% / 6 - 10px);
+  margin: 0 5px;
+  margin-bottom: 20px;
+}
+  
+  .active {
+    font-weight: bold;
+  }
+  .row-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
