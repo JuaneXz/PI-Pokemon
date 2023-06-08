@@ -2,7 +2,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import { Link } from 'react-router-dom';
 import styles from './estilos.module.css';
 
-export default function NavBar({ onSearch }) {
+export default function NavBar() {
   return (
     <nav className={styles.navBar}>
       <div className={styles.navLinks}>
@@ -16,7 +16,7 @@ export default function NavBar({ onSearch }) {
           <Link to="/myPokemons">Mis Pokemones</Link>
         </button>
       </div>
-      <SearchBar onSearch={onSearch} />
+      <SearchBar/>
     </nav>
   );
 }

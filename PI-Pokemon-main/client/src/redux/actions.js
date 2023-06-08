@@ -21,7 +21,6 @@ export const resetTypes = () => {
   };
 };
 
-
 export const createPokemon = (pokemonData) => {
   return async (dispatch) => {
     try {
